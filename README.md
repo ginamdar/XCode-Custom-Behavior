@@ -8,7 +8,7 @@ Created a custom behaviour based on apple script
  Also you need to give +x permission to this text file.
  
  DEBUG
- Copy the script in AppleScript editor and Run from there, remote try / end try block to see errors
+ Copy the script in AppleScript editor and Run from there, remove try / end try block to see errors
  if any.
  
  This script allows develoer to see what they need to see while doing coding and something that cannot
