@@ -28,10 +28,14 @@ tell application "Xcode"
 				tell application process "Xcode"
 					try
 						
-						-- Show tab bar _Filename_
-						click menu item "Show Tab Bar" of menu 1 of menu bar item "View" of menu bar 1
-						-- Enter Full Screen Mode
-						click menu item "Enter Full Screen" of menu 1 of menu bar item "View" of menu bar 1
+						try
+							-- Show tab bar _Filename_
+							click menu item "Show Tab Bar" of menu 1 of menu bar item "View" of menu bar 1
+						end try
+						try
+							-- Enter Full Screen Mode
+							click menu item "Enter Full Screen" of menu 1 of menu bar item "View" of menu bar 1
+						end try
 						-- Show Project Navigator CMD+0
 						tell menu bar 1
 							tell menu bar item "View"
